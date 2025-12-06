@@ -24,7 +24,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background: url(default.jpg);
+  background: url(/default.jpg);
 }
 
 table.rst-logo-table td {
