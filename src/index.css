@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 12px;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-color: #f4f4f4;
+  --transparent-bg-color: rgba(0, 0, 0, 0.3);
+  --primary-color: #8c7fcf;
+  --secondary-color: #4d3e98;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url(default.jpg);
+}
+
+table.rst-logo-table td {
+    border: 1px solid #CCCCCC;
+}
+
+table.rst-logo-table tr:nth-child(even) {
+    background-color: white;
+}
+
+table.rst-logo-table tr:nth-child(odd) {
+    background-color: var(--bg-color);
+}
+
+input[type=text] {
+    background-color: white;
+    border: 1px solid #cccccc;
+    outline: none;
+}
